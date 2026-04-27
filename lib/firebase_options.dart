@@ -49,20 +49,24 @@ class DefaultFirebaseOptions {
     }
   }
 
+  // Redacted values for interview/code-sharing.
+  // The Firebase SDK expects these exact config field names.
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCuHne0SxE7tsiPJowj1TdjmZoTBPsaMOo',
-    appId: '1:1001685676165:web:956f48d8478af9190bf9ec',
-    messagingSenderId: '1001685676165',
-    projectId: 'resume-builder-eede2',
-    authDomain: 'resume-builder-eede2.firebaseapp.com',
-    storageBucket: 'resume-builder-eede2.firebasestorage.app',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 
+  // Redacted values for interview/code-sharing.
+  // The Firebase SDK expects these exact config field names.
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA1vk2_HkJtzS6FF6FMLp8xyCnN_wsOMyA',
-    appId: '1:1001685676165:android:8632b457bce1599c0bf9ec',
-    messagingSenderId: '1001685676165',
-    projectId: 'resume-builder-eede2',
-    storageBucket: 'resume-builder-eede2.firebasestorage.app',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 }

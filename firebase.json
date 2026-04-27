@@ -1,1 +1,15 @@
-{"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"resume-builder-eede2","configurations":{"android":"1:1001685676165:android:8632b457bce1599c0bf9ec","web":"1:1001685676165:web:956f48d8478af9190bf9ec"}}}}}}
+{
+    "flutter": {
+        "platforms": {
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "resume-builder-eede2",
+                    "configurations": {
+                        "android": "1:1001685676165:android:8632b457bce1599c0bf9ec",
+                        "web": "1:1001685676165:web:956f48d8478af9190bf9ec"
+                    }
+                }
+            }
+        }
+    }
+}
