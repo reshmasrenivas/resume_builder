@@ -1,0 +1,18 @@
+
+name: flutter_resume_builder
+description: Resume Builder with Firebase
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  flutter_riverpod: ^2.5.1
+
+flutter:
+  uses-material-design: true
